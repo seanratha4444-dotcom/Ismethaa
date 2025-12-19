@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #1a1a1a;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.search-input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 16px;
+    border: 1px solid #302a2a;
+    border-radius: 5px;
+    width: 220px;
+    font-size: 14px;
+    background: #1a1a1a;
+    color: #ccc;
+}
+
+.cart-link {
+    color: #8c52ff;        
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-link:hover {
+    text-decoration: underline;
+}
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* BUTTONS */
+.btn{
+    background-color: #111;
+    padding: 10px 30px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main-bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn.red {
+    background: #e50914;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.movie-grid {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.movie-card {
+    cursor: pointer;
+    background: #1f1f1f;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.movie-card img {
+    width: 220px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.movie-card h4 {
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+/* Content */
+.content img{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    height: 830px;
+}
+.number{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    top: 42.5px;
+    position: 12px ;
+}
+.number{
+    grid-column: auto;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit);
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.buttom{
+    cursor: pointer;
+    background-color: #111;
+    padding: 10px 40px;
+    border-radius: 6px;
+    text-align: center;
+}
+.buttom h4{
+    color: #ccc;
+    margin: 10px;
+}
+.btn-sidebar{
+    padding: 10px 15px;
+    color: #ccc;
+    font-size: 35px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+}
