@@ -67,6 +67,7 @@ body {
     font-weight: bold;
 }
 
+
 /* BUTTONS */
 .btn{
     background-color: #111;
@@ -87,6 +88,45 @@ body {
 
 .btn:hover {
     opacity: 0.8;
+}
+
+.hero {
+    justify-content: center;
+    display: flex;
+    padding: 50px 40px;
+    background: #181818;
+    gap: 40px;
+}
+
+.hero-left img {
+    cursor: pointer;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.hero-right h1 {
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.tags span {
+    margin-right: 10px;
+    color: #bbb;
+}
+
+.description {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.movie-info {
+    margin: 15px 0;
+    color: #f8f6f6;
+}
+
+.hero-buttons button {
+    margin-right: 10px;
+    color: white;
 }
 
 
@@ -121,46 +161,17 @@ body {
 /* Content */
 .content{
     align-items: center;
-    justify-content: space-between;
+    display: flex;
     width: 1250px;
     height: 830px;
     margin: auto;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 .content img{
-    width: 100%;
     padding: 12px;
     
-}
-.content2{
-    color: white;
-    font-size: 30px;
-    top: 500px;
-    left: 100px;
-}
-.number{
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    top: 42.5px;
-    position: 12px ;
-}
-.number{
-    grid-column: auto;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit);
-    gap: 20px;
-    flex-wrap: wrap;
-    background-color: #1a1a1a;
-    height: 80px;
-}
-.buttom{
-    cursor: pointer;
-    background-color: #111;
-    padding: 10px 40px;
-    border-radius: 6px;
-    text-align: center;
 }
 .buttom h4{
     color: #ccc;

@@ -22,7 +22,6 @@ body {
     cursor: pointer;
     position: sticky;
 }
-
 .navbar nav a {
     margin: 0 10px;
     color: #ccc;
@@ -67,7 +66,6 @@ body {
     font-weight: bold;
 }
 
-/* BUTTONS */
 .btn{
     background-color: #111;
     padding: 10px 30px;
@@ -89,93 +87,77 @@ body {
     opacity: 0.8;
 }
 
+.layout {
+    display: flex;
+}
 
-.movie-grid {
+.sidebar {
+    width: 250px;
+    background-color: #1a1a1a;
+    padding: 20px;
+
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-title {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.btn-title:hover {
+    background-color: #575353;
+}
+
+.content{
+    display: flex;
+    padding: 20px;
+}
+.movie-container {
     display: flex;
     grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
     gap: 20px;
     flex-wrap: wrap;
-    padding: 30px;
+    width: 100%;
 }
+
 .movie-card {
     cursor: pointer;
     background: #1f1f1f;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-decoration: none;
 }
 
 .movie-card img {
     align-items: center;
-    justify-content: space-between;
     width: 220px;
     height: 250px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .movie-card h4 {
     color: aliceblue;
     margin-top: 10px;
+    font-size: 16px;
 }
 
-/* Content */
-.content{
-    align-items: center;
-    justify-content: space-between;
-    width: 1250px;
-    height: 830px;
-    margin: auto;
-    display: flex;
-}
-.content img{
-    width: 100%;
-    padding: 12px;
-    
-}
-.content2{
-    color: white;
-    font-size: 30px;
-    top: 500px;
-    left: 100px;
-}
-.number{
-    width: 100%;
-    display: flex;
-    justify-content:center;
-    top: 42.5px;
-    position: 12px ;
-}
-.number{
-    grid-column: auto;
-    justify-content: center;
-    align-items: center;
-    grid-template-columns: repeat(auto-fit);
-    gap: 20px;
-    flex-wrap: wrap;
-    background-color: #1a1a1a;
-    height: 80px;
-}
-.buttom{
-    cursor: pointer;
-    background-color: #111;
-    padding: 10px 40px;
-    border-radius: 6px;
-    text-align: center;
-}
-.buttom h4{
-    color: #ccc;
-    margin: 10px;
-}
-.btn-sidebar{
-    padding: 10px 15px;
-    color: #ccc;
-    font-size: 20px;
-    border: none;
-    text-decoration: none;
-    font-weight: bold;
-}
 
-/* FOOTER */
+/* footer */
 .footer {
   height: 60px;
   background: #111;

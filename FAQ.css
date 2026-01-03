@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000000;
+    color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #1a1a1a;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    position: sticky;
+}
+
+.navbar nav a {
+    margin: 0 10px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.search-input {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 16px;
+    border: 1px solid #302a2a;
+    border-radius: 5px;
+    width: 220px;
+    font-size: 14px;
+    background: #1a1a1a;
+    color: #ccc;
+}
+
+.cart-link {
+    color: #8c52ff;        
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.cart-link:hover {
+    text-decoration: underline;
+}
+
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+body {
+  background: #2e2e2e;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.faq-container {
+  width: 700px;
+  max-width: 95%;
+  margin: 40px auto;
+  background: #3a3a3a;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.faq-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+details {
+  background: #444;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+summary {
+  padding: 15px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+  position: relative;
+}
+
+summary::after {
+  content: "▾";
+  position: absolute;
+  right: 15px;
+  transition: transform 0.3s;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+details p {
+  padding: 15px;
+  background: #505050;
+  margin: 0;
+  border-top: 1px solid #666;
+}
+
+.Comment {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 100px;
+  background: #cfcfcf;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: left;
+  align-items: flex-start;
+  border: 1px solid #969090;
+}
+
+/* footer */
+.footer {
+  height: 60px;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  margin-top: 12%;
+}
